@@ -34,3 +34,4 @@ def scaled_dot_product_attention(Q, K, V, mask=None):
     output = np.matmul(attention_weights, V)
 
     return output, attention_weights
+
